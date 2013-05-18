@@ -1,4 +1,4 @@
-#! /bin/sh
+#! /bin/bash
 
 count=1
 echo "Value of count before Adition"
