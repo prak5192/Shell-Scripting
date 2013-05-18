@@ -40,3 +40,26 @@ do
 done
 
 echo "==============================================="
+
+echo "Method 5"
+echo "Printing from value 1 to 10"
+Max=10
+for ((i=2; i<=$Max; i++))
+do
+	echo $i;
+done
+
+echo "==============================================="
+
+echo "Method 6"
+echo "Printing from value 1 to 10"
+Max=10
+for i in `eval "echo {2..$Max}"`
+do
+	echo $i;
+done
+
+echo "==============================================="
+
+
+
