@@ -2,7 +2,11 @@
 
 # Converting the base of the number 
 
-# To run this code ./base_conversion.sh -b 2 -n 500
+# To run this code 
+# ./base_conversion.sh -b 2 -n 500
+# ./base_conversion.sh -b 8 -n 500
+# ./base_conversion.sh -b 10 -n 500
+# ./base_conversion.sh -b 16 -n 500
 
 while [ "$1" ]
 do
