@@ -6,4 +6,5 @@ function print_str() {
 
 
 str1="Hello World"
+
 print_str "$str1"
